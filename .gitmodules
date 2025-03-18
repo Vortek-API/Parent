@@ -1,6 +1,9 @@
 [submodule "frontend"]
-	path = frontend
-	url = https://github.com/Vortek-API/frontend
+    path = frontend
+    url = https://github.com/Vortek-API/frontend
+	branch = sprint1
+
 [submodule "backend"]
-	path = backend
-	url = https://github.com/Vortek-API/backend
+    path = backend
+    url = https://github.com/Vortek-API/backend
+	branch = sprint1
