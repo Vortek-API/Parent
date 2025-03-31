@@ -81,7 +81,7 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
 ---
 
 
-# DOCUMENTAÇÃO
+# O PRODUTO
 
 <details>
 <summary>Backlog do Produto</summary>
