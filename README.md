@@ -195,6 +195,18 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
 </tr>
 
 <tr style="background-color: #f2f2f2;">
+  <td style="text-align: center;">VTK-9</td>
+  <td>SPRINT 2</td>
+  <td>Como desenvolvedor, quero acessar dados via API para integrar com outras plataformas.</td>
+  <td>
+    1. A API deve permitir filtros por data, empresa e profissional.
+  </td>
+  <td style="text-align: center;">🟡 MEDIUM</td>
+  <td style="text-align: center;">3</td>
+  <td>API para consumo dos dados (desejável).</td>
+</tr>
+
+<tr style="background-color: #f2f2f2;">
   <td style="text-align: center;">VTK-7</td>
   <td>SPRINT 2</td>
   <td>Como gestor ou analista, quero acessar um dashboard interativo para tomar decisões estratégicas.</td>
@@ -208,32 +220,9 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
   <td>Dashboard com gráficos e possibilidade de filtragem.</td>
 </tr>
 
-<tr>
-  <td style="text-align: center;">VTK-8</td>
-  <td>SPRINT 2</td>
-  <td>Como usuário/administrador, quero realizar login para acessar funcionalidades personalizadas.</td>
-  <td>
-    1. Tela de login com campos para usuário e senha;<br>
-    2. Redirecionamento conforme perfil;<br>
-    3. Opção de recuperação de senha.
-  </td>
-  <td style="text-align: center;">🟢 LOW</td>
-  <td style="text-align: center;">3</td>
-  <td>Autenticação no sistema.</td>
-</tr>
+
 
 <!-- SPRINT 3 -->
-<tr style="background-color: #f2f2f2;">
-  <td style="text-align: center;">VTK-9</td>
-  <td>SPRINT 3</td>
-  <td>Como desenvolvedor, quero acessar dados via API para integrar com outras plataformas.</td>
-  <td>
-    1. A API deve permitir filtros por data, empresa e profissional.
-  </td>
-  <td style="text-align: center;">🟡 MEDIUM</td>
-  <td style="text-align: center;">3</td>
-  <td>API para consumo dos dados (desejável).</td>
-</tr>
 
 <tr>
   <td style="text-align: center;">VTK-10</td>
@@ -261,6 +250,19 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
   <td style="text-align: center;">🟡 MEDIUM</td>
   <td style="text-align: center;">5</td>
   <td>Desenvolver filtragem por data, empresa e profissional.</td>
+</tr>
+<tr>
+  <td style="text-align: center;">VTK-8</td>
+  <td>SPRINT 3</td>
+  <td>Como usuário/administrador, quero realizar login para acessar funcionalidades personalizadas.</td>
+  <td>
+    1. Tela de login com campos para usuário e senha;<br>
+    2. Redirecionamento conforme perfil;<br>
+    3. Opção de recuperação de senha.
+  </td>
+  <td style="text-align: center;">🟢 LOW</td>
+  <td style="text-align: center;">3</td>
+  <td>Autenticação no sistema.</td>
 </tr>
 
   </tbody>
@@ -392,10 +394,13 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
       <td>Dashboard com gráficos e filtros</td>
     </tr>
     <tr>
-      <td>Como usuário/administrador, quero realizar login para acessar funcionalidades personalizadas.</td>
-      <td>1. Tela de login com campos para usuário e senha;<br>2. Redirecionamento conforme perfil;<br>3. Opção de recuperação de senha.</td>
+      <td>CComo desenvolvedor que precisa integrar sistemas externos,
+Quero acessar os dados do sistema por meio de uma API,
+Para que eu possa consumir essas informações de forma automatizada e integrá-las a outras plataformas</td>
+      <td>1. Deve ser possível aplicar filtros diretamente no dashboard sem recarregar a página
       <td style="text-align: center;">6</td>
-      <td>Tela de autenticação</td>
+      <td>API para consumo dos dados (Desejável
+</td>
     </tr>
   </tbody>
 </table>
