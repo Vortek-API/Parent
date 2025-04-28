@@ -102,90 +102,169 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
     </tr>
   </thead>
   <tbody>
-    <!-- Sprint 1 -->
-    <tr style="background-color: #f2f2f2;">
-      <td style="padding: 10px; text-align: center;">VTK-X</td>
-      <td style="padding: 10px;">SPRINT 1</td>
-      <td style="padding: 10px;">Como administrador do sistema que gerencia os profissionais terceirizados, Quero cadastrar profissionais, Para que eu possa identificar e controlar quais profissionais estão autorizados a trabalhar na área de manutenção.</td>
-      <td style="padding: 10px;">1. O sistema deve permitir o cadastro de nome da empresa, CNPJ, endereço, telefone, e-mail e responsável pela empresa.<br>2. Botão para cancelar o cadastro.<br>3. Exibir mensagem de sucesso após o cadastro.<br>4. Não permitir cadastro com campos obrigatórios vazios.<br>5. Permitir upload de foto da empresa com pré-visualização.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">HIGH</td>
-      <td style="padding: 10px; text-align: center;">5</td>
-      <td style="padding: 10px;">Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; text-align: center;">VTK-X</td>
-      <td style="padding: 10px;">SPRINT 1</td>
-      <td style="padding: 10px;">Como administrador do sistema responsável pelo gerenciamento de empresas terceirizadas, Quero cadastrar novas empresas, Para que eu possa associar profissionais a elas e manter um controle organizado das empresas terceirizadas.</td>
-      <td style="padding: 10px;">1. Permitir cadastro com nome, CNPJ e telefone.<br>2. Deve ser possível editar e excluir empresas cadastradas, garantindo flexibilidade no gerenciamento.<br>3. Permitir ver se o cadastro está ativo/inativo.<br>4. Foto deve ser obrigatória.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">MEDIUM</td>
-      <td style="padding: 10px; text-align: center;">5</td>
-      <td style="padding: 10px;">Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto.</td>
-    </tr>
-    <tr style="background-color: #f2f2f2;">
-      <td style="padding: 10px; text-align: center;">VTK-X</td>
-      <td style="padding: 10px;">SPRINT 1</td>
-      <td style="padding: 10px;">Como administrador do sistema, Quero visualizar a lista de empresas, Para que eu possa gerenciar facilmente as empresas terceirizadas.</td>
-      <td style="padding: 10px;">1. Deve haver um campo de busca para encontrar empresas pelo nome ou CNPJ rapidamente.<br>2. Opção para limpar os filtros.<br>3. Permitir busca por nome da empresa.<br>4. O administrador deve poder acessar os detalhes completos de cada empresa ao clicar em um item da lista.<br>5. Deve ser possível ordenar a lista por diferentes critérios, como nome ou data de cadastro.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">HIGH</td>
-      <td style="padding: 10px; text-align: center;">5</td>
-      <td style="padding: 10px;">Desenvolver filtragem por data, empresa e profissional.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; text-align: center;">VTK-X</td>
-      <td style="padding: 10px;">SPRINT 1</td>
-      <td style="padding: 10px;">Como administrador do sistema, Quero visualizar todos os profissionais cadastrados, Para que eu possa gerenciar os colaboradores ativos por empresa.</td>
-      <td style="padding: 10px;">1. O sistema deve exibir uma lista de profissionais com nome, foto, empresa associada e status (ativo/inativo).<br>2. O administrador deve poder visualizar apenas profissionais ativos caso necessário.<br>3. Deve ser possível ordenar (filtro) a lista por nome, empresa ou data de cadastro.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">MEDIUM</td>
-      <td style="padding: 10px; text-align: center;">5</td>
-      <td style="padding: 10px;">Desenvolver filtragem por data, empresa e profissional.</td>
-    </tr>
-    <!-- Sprint 2 -->
-    <tr style="background-color: #f2f2f2;">
-      <td style="padding: 10px; text-align: center;">VTK-5</td>
-      <td style="padding: 10px;">SPRINT 2</td>
-      <td style="padding: 10px;">Como usuário do sistema que analisa dados e relatórios, Quero poder filtrar as informações exibidas na plataforma, Para que eu possa visualizar apenas os dados relevantes para minha análise, otimizando minha tomada de decisão.</td>
-      <td style="padding: 10px;">1. Deve ser possível selecionar um intervalo de datas por meio de um calendário interativo.<br>2. Deve ser possível selecionar múltiplas empresas através de um campo de busca com seleção múltipla.<br>3. Deve ser possível selecionar múltiplos profissionais através de uma lista suspensa ou campo de busca.<br>4. O sistema deve atualizar automaticamente os resultados conforme os filtros são aplicados.<br>5. O usuário deve ter a opção de limpar os filtros rapidamente.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">HIGH</td>
-      <td style="padding: 10px; text-align: center;">4</td>
-      <td style="padding: 10px;">Desenvolver filtragem por data, empresa e profissional.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; text-align: center;">VTK-6</td>
-      <td style="padding: 10px;">SPRINT 2</td>
-      <td style="padding: 10px;">Como usuário do sistema que precisa documentar e compartilhar informações, Quero poder exportar relatórios detalhados com os dados filtrados, Para que eu possa armazenar, analisar posteriormente de forma clara e organizada.</td>
-      <td style="padding: 10px;">1. O relatório deve refletir exatamente os filtros aplicados no sistema.<br>2. Deve ser possível escolher entre os formatos PDF e Excel para exportação.<br>3. O layout do relatório deve ser claro, organizado e incluir gráficos (se aplicável).<br>4. Deve haver um botão de "Gerar Relatório" com indicação visual de carregamento durante a geração.<br>5. O nome do arquivo gerado deve incluir a data e hora da exportação.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">MEDIUM</td>
-      <td style="padding: 10px; text-align: center;">4</td>
-      <td style="padding: 10px;">Permitir a extração de relatórios.</td>
-    </tr>
-    <tr style="background-color: #f2f2f2;">
-      <td style="padding: 10px; text-align: center;">VTK-7</td>
-      <td style="padding: 10px;">SPRINT 2</td>
-      <td style="padding: 10px;">Como gestor ou analista que precisa acompanhar métricas de desempenho, Quero acessar um dashboard interativo, Para que eu possa visualizar rapidamente tendências, identificar padrões e tomar decisões estratégicas.</td>
-      <td style="padding: 10px;">1. Deve ser possível aplicar filtros diretamente no dashboard sem recarregar a página.<br>2. O usuário deve poder escolher entre diferentes tipos de visualização (ex: dados agregados por mês, semana ou dia).</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">HIGH</td>
-      <td style="padding: 10px; text-align: center;">7</td>
-      <td style="padding: 10px;">Dashboard com gráficos e possibilidade de filtragem.</td>
-    </tr>
-    <!-- Sprint 3 -->
-    <tr style="background-color: #f2f2f2;">
-      <td style="padding: 10px; text-align: center;">VTK-8</td>
-      <td style="padding: 10px;">SPRINT 3</td>
-      <td style="padding: 10px;">Como desenvolvedor que precisa integrar sistemas externos, Quero acessar os dados do sistema por meio de uma API, Para que eu possa consumir essas informações de forma automatizada e integrá-las a outras plataformas.</td>
-      <td style="padding: 10px;">1. A API deve permitir consultas usando parâmetros de data, empresa e profissional.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">MEDIUM</td>
-      <td style="padding: 10px; text-align: center;">3</td>
-      <td style="padding: 10px;">API para consumo dos dados (Desejável).</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; text-align: center;">VTK-9</td>
-      <td style="padding: 10px;">SPRINT 3</td>
-      <td style="padding: 10px;">Como administrador do sistema, Quero visualizar o histórico de horas trabalhadas por profissional, Para que eu possa verificar a carga horária cumprida em determinado período.</td>
-      <td style="padding: 10px;">1. Deve ser possível consultar o horário trabalhado de um profissional em uma data ou período específico.<br>2. O sistema deve exibir as horas totais trabalhadas no período filtrado.<br>3. O histórico deve mostrar entrada, saída e tempo total trabalhado por dia.</td>
-      <td style="padding: 10px; text-align: center; background-color: #ffcc00;">HIGH</td>
-      <td style="padding: 10px; text-align: center;">5</td>
-      <td style="padding: 10px;">Histórico de horas trabalhadas por profissional.</td>
-    </tr>
+   <!-- SPRINT 1 -->
+<tr style="background-color: #f2f2f2;">
+  <td style="text-align: center;">VTK-X</td>
+  <td>SPRINT 1</td>
+  <td>Como administrador do sistema que gerencia os profissionais terceirizados, quero cadastrar profissionais, para que eu possa identificar e controlar quais estão autorizados a trabalhar na área de manutenção.</td>
+  <td>
+    1. Cadastro com nome da empresa e CPF;<br>
+    2. Botão para cancelar o cadastro;<br>
+    3. Mensagem de sucesso após cadastro;<br>
+    4. Bloquear cadastro com campos obrigatórios vazios;<br>
+    5. Permitir upload de foto com pré-visualização.
+  </td>
+  <td style="text-align: center;">🔴 HIGH</td>
+  <td style="text-align: center;">5</td>
+  <td>Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto.</td>
+</tr>
+
+<tr>
+  <td style="text-align: center;">VTK-X</td>
+  <td>SPRINT 1</td>
+  <td>Como administrador responsável por gerenciar empresas terceirizadas, quero cadastrar novas empresas para associar profissionais a elas.</td>
+  <td>
+    1. Cadastro com nome, CNPJ;<br>
+    2. Editar e excluir empresas cadastradas.
+  </td>
+  <td style="text-align: center;">🟡 MEDIUM</td>
+  <td style="text-align: center;">5</td>
+  <td>Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto.</td>
+</tr>
+
+<tr style="background-color: #f2f2f2;">
+  <td style="text-align: center;">VTK-X</td>
+  <td>SPRINT 1</td>
+  <td>Como administrador do sistema, quero visualizar a lista de empresas para facilitar o gerenciamento.</td>
+  <td>
+    1. Campo de busca por nome/CNPJ;<br>
+    2. Limpar filtros;<br>
+    3. Ordenação por nome/data;<br>
+    4. Acesso aos detalhes ao clicar;<br>
+    5. Exibir status de cadastro.
+  </td>
+  <td style="text-align: center;">🔴 HIGH</td>
+  <td style="text-align: center;">5</td>
+  <td>Desenvolver filtragem por data, empresa e profissional.</td>
+</tr>
+
+<tr>
+  <td style="text-align: center;">VTK-X</td>
+  <td>SPRINT 1</td>
+  <td>Como administrador do sistema, quero visualizar todos os profissionais cadastrados para gerenciar os colaboradores ativos por empresa.</td>
+  <td>
+    1. Exibir lista com nome, foto, empresa, status;<br>
+    2. Visualizar apenas profissionais ativos;<br>
+    3. Filtro por nome, empresa ou data de cadastro.
+  </td>
+  <td style="text-align: center;">🟡 MEDIUM</td>
+  <td style="text-align: center;">5</td>
+  <td>Desenvolver filtragem por data, empresa e profissional.</td>
+</tr>
+
+<!-- SPRINT 2 -->
+<tr style="background-color: #f2f2f2;">
+  <td style="text-align: center;">VTK-5</td>
+  <td>SPRINT 2</td>
+  <td>Como usuário que analisa dados e relatórios, quero filtrar informações exibidas na plataforma para visualizar apenas dados relevantes.</td>
+  <td>
+    1. Filtro por intervalo de datas (calendário);<br>
+    2. Seleção múltipla de empresas e profissionais;<br>
+    3. Limpar filtros rapidamente.
+  </td>
+  <td style="text-align: center;">🟡 MEDIUM</td>
+  <td style="text-align: center;">4</td>
+  <td>Desenvolver filtragem por data, empresa e profissional.</td>
+</tr>
+
+<tr>
+  <td style="text-align: center;">VTK-6</td>
+  <td>SPRINT 2</td>
+  <td>Como usuário que precisa documentar e compartilhar dados, quero exportar relatórios com os filtros aplicados.</td>
+  <td>
+    1. Tela exclusiva com informações do ponto;<br>
+    2. Aplicação dos filtros nos relatórios;<br>
+    3. Exportação em PDF/Excel;<br>
+    4. Layout com gráficos;<br>
+    5. Botão "Gerar Relatório" com loading;<br>
+    6. Nome do arquivo com data/hora.
+  </td>
+  <td style="text-align: center;">🔴 HIGH</td>
+  <td style="text-align: center;">4</td>
+  <td>Permitir a extração de relatórios.</td>
+</tr>
+
+<tr style="background-color: #f2f2f2;">
+  <td style="text-align: center;">VTK-9</td>
+  <td>SPRINT 2</td>
+  <td>Como desenvolvedor, quero acessar dados via API para integrar com outras plataformas.</td>
+  <td>
+    1. A API deve permitir filtros por data, empresa e profissional.
+  </td>
+  <td style="text-align: center;">🟡 MEDIUM</td>
+  <td style="text-align: center;">3</td>
+  <td>API para consumo dos dados (desejável).</td>
+</tr>
+
+<tr style="background-color: #f2f2f2;">
+  <td style="text-align: center;">VTK-7</td>
+  <td>SPRINT 2</td>
+  <td>Como gestor ou analista, quero acessar um dashboard interativo para tomar decisões estratégicas.</td>
+  <td>
+    1. Tela exclusiva para dashboards;<br>
+    2. Filtros aplicáveis direto no dashboard;<br>
+    3. Visualização por mês, semana ou dia.
+  </td>
+  <td style="text-align: center;">🟢 LOW</td>
+  <td style="text-align: center;">7</td>
+  <td>Dashboard com gráficos e possibilidade de filtragem.</td>
+</tr>
+
+
+
+<!-- SPRINT 3 -->
+
+<tr>
+  <td style="text-align: center;">VTK-10</td>
+  <td>SPRINT 3</td>
+  <td>Como administrador, quero visualizar o histórico de horas trabalhadas por profissional.</td>
+  <td>
+    1. Consulta por data ou período;<br>
+    2. Exibir total de horas no período;<br>
+    3. Mostrar entrada, saída e total por dia.
+  </td>
+  <td style="text-align: center;">🔴 HIGH</td>
+  <td style="text-align: center;">5</td>
+  <td>Desenvolver filtragem por data, empresa e profissional.</td>
+</tr>
+
+<tr style="background-color: #f2f2f2;">
+  <td style="text-align: center;">VTK-11</td>
+  <td>SPRINT 3</td>
+  <td>Como administrador, quero saber quantos profissionais atuaram por empresa em um período.</td>
+  <td>
+    1. Mostrar número de profissionais por período;<br>
+    2. Lista com nome, horário e total de horas;<br>
+    3. Seleção de empresa e período.
+  </td>
+  <td style="text-align: center;">🟡 MEDIUM</td>
+  <td style="text-align: center;">5</td>
+  <td>Desenvolver filtragem por data, empresa e profissional.</td>
+</tr>
+<tr>
+  <td style="text-align: center;">VTK-8</td>
+  <td>SPRINT 3</td>
+  <td>Como usuário/administrador, quero realizar login para acessar funcionalidades personalizadas.</td>
+  <td>
+    1. Tela de login com campos para usuário e senha;<br>
+    2. Redirecionamento conforme perfil;<br>
+    3. Opção de recuperação de senha.
+  </td>
+  <td style="text-align: center;">🟢 LOW</td>
+  <td style="text-align: center;">3</td>
+  <td>Autenticação no sistema.</td>
+</tr>
+
   </tbody>
 </table>
 
@@ -193,11 +272,13 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
 
 </details>
 
+---
+
 <details>
 <summary>Sprint 1</summary>
 
- ## Backlog da Sprint 
- 
+## Backlog da Sprint
+
 <table>
   <thead style="background-color: #2d2d2d; color: white; text-align: center;">
     <tr>
@@ -208,38 +289,35 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
     </tr>
   </thead>
   <tbody>
-    <!-- User Story 1 -->
     <tr style="background-color: #f2f2f2;">
-      <td style="padding: 10px;">Como administrador do sistema que gerencia os profissionais terceirizados, Quero cadastrar profissionais, Para que eu possa identificar e controlar quais profissionais estão autorizados a trabalhar na área de manutenção.</td>
-      <td style="padding: 10px;">1. O sistema deve permitir o cadastro de nome da empresa, CNPJ, endereço, telefone, e-mail e responsável pela empresa.<br>2. Botão para cancelar o cadastro.<br>3. Exibir mensagem de sucesso após o cadastro.<br>4. Não permitir cadastro com campos obrigatórios vazios.<br>5. Permitir upload de foto da empresa com pré-visualização.</td>
-      <td style="padding: 10px; text-align: center;">10</td>
-      <td style="padding: 10px;">Cadastro de profissionais</td>
+      <td>Como administrador do sistema que gerencia os profissionais terceirizados, quero cadastrar profissionais, para que eu possa identificar e controlar quais estão autorizados a trabalhar na área de manutenção.</td>
+      <td>1. Cadastro com nome da empresa e CPF;<br>2. Botão para cancelar o cadastro;<br>3. Mensagem de sucesso após cadastro;<br>4. Bloquear cadastro com campos obrigatórios vazios;<br>5. Permitir upload de foto com pré-visualização.</td>
+      <td style="text-align: center;">10</td>
+      <td>Cadastro de profissionais</td>
     </tr>
-    <!-- User Story 2 -->
     <tr>
-      <td style="padding: 10px;">Como administrador do sistema responsável pelo gerenciamento de empresas terceirizadas, Quero cadastrar novas empresas, Para que eu possa associar profissionais a elas e manter um controle organizado das empresas terceirizadas.</td>
-      <td style="padding: 10px;">1. Permitir cadastro com nome, CNPJ e telefone.<br>2. Deve ser possível editar e excluir empresas cadastradas, garantindo flexibilidade no gerenciamento.<br>3. Permitir ver se o cadastro está ativo/inativo.<br>4. Foto deve ser obrigatória.</td>
-      <td style="padding: 10px; text-align: center;">10</td>
-      <td style="padding: 10px;">Cadastro de empresas</td>
+      <td>Como administrador responsável por gerenciar empresas terceirizadas, quero cadastrar novas empresas para associar profissionais a elas.</td>
+      <td>1. Cadastro com nome, CNPJ;<br>2. Editar e excluir empresas cadastradas.</td>
+      <td style="text-align: center;">10</td>
+      <td>Cadastro de empresas</td>
     </tr>
-    <!-- User Story 3 -->
     <tr style="background-color: #f2f2f2;">
-      <td style="padding: 10px;">Como administrador do sistema, Quero visualizar a lista de empresas, Para que eu possa gerenciar facilmente as empresas terceirizadas.</td>
-      <td style="padding: 10px;">1. Deve haver um campo de busca para encontrar empresas pelo nome ou CNPJ rapidamente.<br>2. Opção para limpar os filtros.<br>3. Permitir busca por nome da empresa.<br>4. O administrador deve poder acessar os detalhes completos de cada empresa ao clicar em um item da lista.<br>5. Deve ser possível ordenar a lista por diferentes critérios, como nome ou data de cadastro.</td>
-      <td style="padding: 10px; text-align: center;">15</td>
-      <td style="padding: 10px;">Cadastro e listagem das empresas</td>
+      <td>Como administrador do sistema, quero visualizar a lista de empresas para facilitar o gerenciamento.</td>
+      <td>1. Campo de busca por nome/CNPJ;<br>2. Limpar filtros;<br>3. Ordenação por nome/data;<br>4. Acesso aos detalhes ao clicar;<br>5. Exibir status de cadastro.</td>
+      <td style="text-align: center;">10</td>
+      <td>Listagem e gerenciamento de empresas</td>
     </tr>
-    <!-- User Story 4 -->
     <tr>
-      <td style="padding: 10px;">Como administrador do sistema, Quero visualizar todos os profissionais cadastrados, Para que eu possa gerenciar os colaboradores ativos por empresa.</td>
-      <td style="padding: 10px;">1. O sistema deve exibir uma lista de profissionais com nome, foto, empresa associada e status (ativo/inativo).<br>2. O administrador deve poder visualizar apenas profissionais ativos caso necessário.<br>3. Deve ser possível ordenar (filtro) a lista por nome, empresa ou data de cadastro.</td>
-      <td style="padding: 10px; text-align: center;">15</td>
-      <td style="padding: 10px;">Visualizar todos os profissionais e filtragem dessa lista</td>
+      <td>Como administrador do sistema, quero visualizar todos os profissionais cadastrados para gerenciar os colaboradores ativos por empresa.</td>
+      <td>1. Exibir lista com nome, foto, empresa, status;<br>2. Visualizar apenas profissionais ativos;<br>3. Filtro por nome, empresa ou data de cadastro.</td>
+      <td style="text-align: center;">10</td>
+      <td>Listagem e filtragem de profissionais</td>
     </tr>
   </tbody>
 </table>
-                                                                                                                                                               
+
 </details>
+
 
 <details>
   <summary><strong>Task Plan Sprint 1</strong></summary>
@@ -282,6 +360,106 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
 
 ---
 
+<details>
+<summary>Sprint 2</summary>
+
+## Backlog da Sprint
+
+<table>
+  <thead style="background-color: #2d2d2d; color: white; text-align: center;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ccc;">USER STORY</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">CRITÉRIOS DE ACEITAÇÃO</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">ESTIMATIVA EM HORAS</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">ATIVIDADE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f2f2f2;">
+      <td>Como usuário que analisa dados e relatórios, quero filtrar informações exibidas na plataforma para visualizar apenas dados relevantes.</td>
+      <td>1. Filtro por intervalo de datas (calendário);<br>2. Seleção múltipla de empresas e profissionais;<br>3. Limpar filtros rapidamente.</td>
+      <td style="text-align: center;">8</td>
+      <td>Filtros de visualização</td>
+    </tr>
+    <tr>
+      <td>Como usuário que precisa documentar e compartilhar dados, quero exportar relatórios com os filtros aplicados.</td>
+      <td>1. Tela exclusiva com informações do ponto;<br>2. Aplicação dos filtros nos relatórios;<br>3. Exportação em PDF/Excel;<br>4. Layout com gráficos;<br>5. Botão "Gerar Relatório" com loading;<br>6. Nome do arquivo com data/hora.</td>
+      <td style="text-align: center;">8</td>
+      <td>Geração de relatórios com filtros</td>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td>Como gestor ou analista, quero acessar um dashboard interativo para tomar decisões estratégicas.</td>
+      <td>1. Tela exclusiva para dashboards;<br>2. Filtros aplicáveis direto no dashboard;<br>3. Visualização por mês, semana ou dia.</td>
+      <td style="text-align: center;">10</td>
+      <td>Dashboard com gráficos e filtros</td>
+    </tr>
+    <tr>
+      <td>CComo desenvolvedor que precisa integrar sistemas externos,
+Quero acessar os dados do sistema por meio de uma API,
+Para que eu possa consumir essas informações de forma automatizada e integrá-las a outras plataformas</td>
+      <td>1. Deve ser possível aplicar filtros diretamente no dashboard sem recarregar a página
+      <td style="text-align: center;">6</td>
+      <td>API para consumo dos dados (Desejável
+</td>
+    </tr>
+  </tbody>
+</table>
+
+## Burndown da Sprint
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/c58ffa4c-6a14-4c77-96ba-07ccc95c34f1" alt="Burndown-Sprint2">
+</p>
+
+</details>
+
+<details>
+  <summary><strong>Task Plan Sprint 2</strong></summary>
+  
+  ### **Tela de Visualização de Empresas**
+
+  | **Título**                          | **Task**                                                                                   |
+  |-------------------------------------|--------------------------------------------------------------------------------------------|
+  | **Objetivo**                        | Permitir ao usuário visualizar todas as empresas cadastradas, com filtragem por nome da empresa. |
+  | **Tarefa 1**                        | Implementar a listagem de empresas na tela de visualização, com exibição de informações como nome, CNPJ e telefone. |
+  | **Tarefa 2**                        | Adicionar um campo de filtro para buscar empresas por nome.                                |
+  | **Tarefa 3**                        | Implementar botão de navegação para a tela de Gerenciamento de Empresas.                    |
+  | **Tarefa 4**                        | Adicionar opção de "Ver Funcionários": Criar um link que redireciona para a tela de visualização de funcionários filtrados pela empresa selecionada. |
+  | **Tarefa 5**                        | Design responsivo e usabilidade: Garantir que a tela seja responsiva e com um design amigável. |
+
+  ### **Tela de Gerenciamento de Empresa**
+
+  | **Título**                          | **Task**                                                                                   |
+  |-------------------------------------|--------------------------------------------------------------------------------------------|
+  | **Objetivo**                        | Permitir que o usuário possa criar ou editar uma empresa, incluindo campos obrigatórios e opcionais. |
+  | **Tarefa 1**                        | Implementar o formulário de cadastro/edição com os seguintes campos: Nome, CNPJ. |
+  | **Tarefa 2**                        | Validação de campos obrigatórios: Garantir que os campos obrigatórios sejam preenchidos antes de permitir a submissão do formulário. |
+  | **Tarefa 3**                        | Exibir mensagens de sucesso ou erro: Após a ação de criação/edição, exibir mensagens apropriadas para informar ao usuário sobre o sucesso ou erro da operação. |
+  | **Tarefa 4**                        | Configurar botão de "Salvar": Criar o botão para submeter o formulário e realizar a criação/edição da empresa no sistema. |
+  | **Tarefa 5**                        | Botão de "Cancelar": Criar um botão para cancelar e retornar à tela anterior. |
+
+  ### **Tela de Visualização de Funcionários**
+
+  | **Título**                          | **Task**                                                                                   |
+  |-------------------------------------|--------------------------------------------------------------------------------------------|
+  | **Objetivo**                        | Exibir as informações dos funcionários vinculados a uma empresa e permitir filtragem.     |
+  | **Tarefa 1**                        | Exibir lista de funcionários vinculados à empresa selecionada, mostrando as informações: Nome, CPF, Foto (se disponível), Empresa vinculada, Status (Ativo/Inativo). |
+  | **Tarefa 2**                        | Adicionar filtro de empresa vinculada: Permitir ao usuário filtrar funcionários por empresa. |
+  | **Tarefa 3**                        | Adicionar funcionalidade de navegação: Criar links ou botões para editar as informações dos funcionários (direcionamento para a tela de gerenciamento de funcionário). |
+  | **Tarefa 4**                        | Design responsivo: Garantir que a lista de funcionários e os filtros sejam responsivos e funcionem bem em diferentes dispositivos. |
+
+  ### **Entregáveis da Sprint 2**
+
+  | **Título**                          | **Task**                                                                                   |
+  |-------------------------------------|--------------------------------------------------------------------------------------------|
+  | **Tela de Visualização de Empresas** | Funcional com filtro por nome da empresa e botões de navegação para gerenciamento de empresa e visualização de funcionários. |
+  | **Tela de Gerenciamento de Empresas** | Funcional com formulário para criação e edição de empresas, validação de campos, mensagens de sucesso e erro, e botões para salvar ou cancelar. |
+  | **Tela de Visualização de Funcionários** | Funcional com exibição das informações dos funcionários, filtro por empresa vinculada e navegação para a tela de gerenciamento de funcionários. |
+
+</details>
+
+
+---
+
 ## Requisitos de Permanência do Grupo
 
 1. **Comprometimento com as Reuniões**  
@@ -309,7 +487,6 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
 | **Mariana Oliveira**             | Product Owner     | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/mariinetic) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/oliveirasmari/) |
 | **Thiago Abreu**                 | Scrum Master      | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/thiagosabreu) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/thiagosabreu/) |
 | **João Pedro Ventura**           | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/jaupventur) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/jo%C3%A3o-pedro-ventura-51988a21b/) |
-| **Larissa Aparecida Claro**      | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/clarol) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/clarolarissa/) |
 | **Luiz Ricardo Da Silva**        | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/luizricar) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/luiz-ricardo-mendes/) |
 | **Jose Wesley de Lima**          | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/jwesleey) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/jwesley/) |
 | **Diego Sales Gamero**           | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/DiegoSGamero) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/diego-gamero/) |
