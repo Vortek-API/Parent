@@ -405,6 +405,11 @@ Para que eu possa consumir essas informações de forma automatizada e integrá-
   </tbody>
 </table>
 
+## Burndown da Sprint
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/c58ffa4c-6a14-4c77-96ba-07ccc95c34f1" alt="Burndown-Sprint2">
+</p>
+
 </details>
 
 <details>
