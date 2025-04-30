@@ -405,6 +405,9 @@ Para que eu possa consumir essas informações de forma automatizada e integrá-
   </tbody>
 </table>
 
+---
+
+
 ## Burndown da Sprint
   <p align="center">
   <img src="https://github.com/user-attachments/assets/c58ffa4c-6a14-4c77-96ba-07ccc95c34f1" alt="Burndown-Sprint2">
@@ -459,6 +462,44 @@ Para que eu possa consumir essas informações de forma automatizada e integrá-
 
 
 ---
+
+<details>
+<summary>Sprint 3</summary>
+
+## Backlog da Sprint
+
+<table>
+  <thead style="background-color: #2d2d2d; color: white; text-align: center;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ccc;">USER STORY</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">CRITÉRIOS DE ACEITAÇÃO</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">ESTIMATIVA EM HORAS</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">ATIVIDADE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f2f2f2;">
+      <td>Como Usuário e Administrador que acessa o sistema, quero poder me autenticar por meio de um login para que minha experiência seja personalizada e relevante para meu tipo de acesso.</td>
+      <td>1. Tela de login com campos de usuário (nome ou e-mail) e senha;<br>2. Redirecionamento para a página correspondente ao tipo de acesso;<br>3. Opção de recuperação de senha.</td>
+      <td style="text-align: center;">15</td>
+      <td>Autenticação de usuário (login)</td>
+    </tr>
+    <tr>
+      <td>Como administrador do sistema, quero visualizar o histórico de horas trabalhadas por profissional para que eu possa verificar a carga horária cumprida em determinado período.</td>
+      <td>1. Consulta de horário trabalhado por profissional em um período específico;<br>2. Exibição das horas totais trabalhadas no período;<br>3. Alteração de ponto permitida apenas para usuários autorizados.</td>
+      <td style="text-align: center;">19</td>
+      <td>Histórico de horas por profissional</td>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <td>Como administrador do sistema, quero saber quantos profissionais de uma determinada empresa atuaram em um dia ou período para que eu tenha controle sobre a presença e distribuição dos trabalhadores.</td>
+      <td>1. Exibição do número total de profissionais que registraram ponto no período;<br>2. Filtragem por data, empresa e profissional.</td>
+      <td style="text-align: center;">15</td>
+      <td>Relatório de presença por empresa</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
 
 ## Requisitos de Permanência do Grupo
 
