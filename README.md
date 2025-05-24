@@ -227,7 +227,7 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
 <tr>
   <td style="text-align: center;">VTK-10</td>
   <td>SPRINT 3</td>
-  <td>Como administrador, quero visualizar o histórico de horas trabalhadas por profissional.</td>
+  <td>Como administrador, quero visualizar o histórico de horas trabalhadas por profissional Para que eu tenha controle sobre a presença e distribuição dos trabalhadores..</td>
   <td>
     1. Consulta por data ou período;<br>
     2. Exibir total de horas no período;<br>
@@ -252,7 +252,7 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
   <td>Desenvolver filtragem por data, empresa e profissional.</td>
 </tr>
 <tr>
-  <td style="text-align: center;">VTK-8</td>
+  <td style="text-align: center;">VTK-12</td>
   <td>SPRINT 3</td>
   <td>Como usuário/administrador, quero realizar login para acessar funcionalidades personalizadas.</td>
   <td>
@@ -263,6 +263,22 @@ Com foco em usabilidade e segurança, o **Sistema de Ponto** visa atender as nec
   <td style="text-align: center;">🟢 LOW</td>
   <td style="text-align: center;">3</td>
   <td>Autenticação no sistema.</td>
+</tr>
+  <td style="text-align: center;">VTK-13</td>
+  <td>SPRINT 3</td>
+  <td>Como usuário autenticado,
+Quero acessar uma tela de histórico de pontos,
+Para visualizar o detalhamento dos pontos acumulados de cada funcionário, ao longo do tempo,
+E visualizar a quantidade de profissionais que efetuaram ponto em determinado período
+</td>
+  <td>
+    1. Deve haver um resumo visível com a contagem total de profissionais que efetuaram ponto dentro do período selecionado, exibido de forma clara e atualizada conforme o filtro
+
+<br>
+  </td>
+  <td style="text-align: center;">🟢 LOW</td>
+  <td style="text-align: center;">3</td>
+  <td>Autentic</td>
 </tr>
 
   </tbody>
@@ -495,6 +511,18 @@ Para que eu possa consumir essas informações de forma automatizada e integrá-
       <td>1. Exibição do número total de profissionais que registraram ponto no período;<br>2. Filtragem por data, empresa e profissional.</td>
       <td style="text-align: center;">15</td>
       <td>Relatório de presença por empresa</td>
+    </tr>
+        <tr style="background-color: #f2f2f2;">
+      <td>Como usuário autenticado,
+Quero acessar uma tela de histórico de pontos,
+Para visualizar o detalhamento dos pontos acumulados de cada funcionário, ao longo do tempo,
+E visualizar a quantidade de profissionais que efetuaram ponto em determinado período
+.</td>
+      <td>1. Deve haver um resumo visível com a contagem total de profissionais que efetuaram ponto dentro do período selecionado, exibido de forma clara e atualizada conforme o filtro
+
+<br></td>
+      <td style="text-align: center;">15</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
