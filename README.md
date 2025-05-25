@@ -3,8 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/21625157-265a-4131-a4aa-2c01e5cbc7ce"/>
+  <img width="100%" src="https://github.com/user-attachments/assets/70e0d915-d908-473e-a5ff-4fbf1694a701" alt="Logo" width="300"/>
 </p>
+
 
 # **DESCRIÇÃO DO PRODUTO**
 
@@ -478,20 +479,3 @@ Para que eu possa consumir essas informações de forma automatizada e integrá-
    É essencial cumprir os prazos estabelecidos para cada entrega, a fim de garantir o fluxo do projeto. O descumprimento dos prazos pode impactar o progresso coletivo e comprometer a qualidade do trabalho da equipe.
 
 ---
-
-<div align="center">
-
-## **Equipe VORTEK**
-| **Membro**                      | **Função**        | **GitHub**                                                                 | **LinkedIn**                                                                 |
-|----------------------------------|-------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Mariana Oliveira**             | Product Owner     | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/mariinetic) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/oliveirasmari/) |
-| **Thiago Abreu**                 | Scrum Master      | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/thiagosabreu) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/thiagosabreu/) |
-| **João Pedro Ventura**           | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/jaupventur) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/jo%C3%A3o-pedro-ventura-51988a21b/) |
-| **Luiz Ricardo Da Silva**        | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/luizricar) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/luiz-ricardo-mendes/) |
-| **Jose Wesley de Lima**          | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/jwesleey) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/jwesley/) |
-| **Diego Sales Gamero**           | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/DiegoSGamero) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/diego-gamero/) |
-| **Tiago Alberto dos Santos**     | Developer         | [<img src="https://skillicons.dev/icons?i=github&color=green" width="50" />](https://github.com/tiago17santos) | [<img src="https://skillicons.dev/icons?i=linkedin&color=0077B5" width="50" />](https://www.linkedin.com/in/tiago-alberto-303909167/) |
-
-
-
-</div>
