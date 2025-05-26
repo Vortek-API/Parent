@@ -1,13 +1,13 @@
 [submodule "frontend"]
     path = frontend
     url = https://github.com/Vortek-API/frontend
-	branch = sprint2
+	branch = sprint3
 
 [submodule "backend"]
     path = backend
     url = https://github.com/Vortek-API/backend
-	branch = sprint2
+	branch = sprint3
 [submodule "docs"]
 	path = docs
 	url = https://github.com/Vortek-API/docs.git
-    branch = sprint2
+    branch = sprint3
