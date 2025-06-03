@@ -289,6 +289,7 @@ E visualizar a quantidade de profissionais que efetuaram ponto em determinado pe
 
 </details>
 
+
 ---
 
 <details>
@@ -527,6 +528,13 @@ E visualizar a quantidade de profissionais que efetuaram ponto em determinado pe
     </tr>
   </tbody>
 </table>
+</details>
+
+<details>
+<summary>UML</summary>
+  <p align="center">
+  <img width="100%" src="https://github.com/user-attachments/assets/2c068d38-d706-4a22-bd20-816d4d4d1510" alt="Logo" width="300"/>
+</p>
 </details>
 
 
